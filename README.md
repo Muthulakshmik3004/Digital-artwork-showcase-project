@@ -37,6 +37,7 @@ To get started with the project, follow these steps:
 ```bash
 git clone https://github.com/Muthulakshmik3004/Digital-artwork-showcase-project.git
 cd Digital-artwork-showcase-project
+
 ### Usage
 Once the project is up and running, follow these steps to use it:
 
