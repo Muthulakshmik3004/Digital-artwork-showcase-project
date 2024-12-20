@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to bottom, #0e1f14, #babbba);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.profile-container {
+    width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+.welcome-message {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+button:hover {
+    background: #45a049;
+}
+.error-message, .success-message {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.error-message {
+    color: red;
+}
+.success-message {
+    color: green;
+}
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+.home-link:hover {
+    text-decoration: underline;
+}
